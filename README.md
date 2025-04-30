@@ -4,7 +4,6 @@ This project implements a robot that follows a BLE beacon using RSSI (Received S
 
 ## Project Structure
 ```
-├── esp32_ble_tracker.py # MicroPython script for BLE scanning and RSSI processing
 ├── outlier_mean_filtering.py # Python script for outlier removal and mean RSSI filtering
 ├── kalman_filtering.py # Python script for smoothing RSSI using a Kalman filter
 ├── main_control_loop.ino # Arduino sketch for motion control and obstacle avoidance
